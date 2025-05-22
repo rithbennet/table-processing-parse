@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Table Processing App
+
+A modern web application for processing tabular data. This application demonstrates front-end development skills with React and Next.js, focusing on data manipulation, calculation, and presentation.
+
+## Features
+
+- **CSV Data Import**: Automatically loads and parses CSV data from a file
+- **Interactive Data Display**: Clean, organized presentation of raw CSV data
+- **Custom Calculator**: Perform custom calculations between any two data points with four operations (addition, subtraction, multiplication, division)
+- **Automated Calculations**: Pre-configured calculations (Alpha, Beta, Charlie) demonstrate data processing capabilities
+- **Responsive Design**: Fully responsive UI that works on mobile and desktop devices
+- **Dark/Light Mode Support**: Adapts to system color scheme preferences
+
+## Technologies Used
+
+- **Next.js**: React framework for production-grade applications
+- **React**: Front-end library for building user interfaces
+- **TypeScript**: Type-safe JavaScript for enhanced developer experience
+- **Shadcn UI**: High-quality UI components built on top of Tailwind CSS
+- **CSV Parsing**: Custom implementation for processing tabular data
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How It Works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. The application loads a CSV file containing indexed values
+2. Raw data is displayed in Table 1
+3. Users can perform custom calculations using the interactive calculator
+4. Pre-defined calculations are shown in Table 2 with detailed breakdown
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The application can be deployed to Vercel or any other hosting service that supports Next.js applications. For production builds, use:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+\_This project was built with Next.js and is maintained by Harith Bennet
