@@ -48,4 +48,4 @@ npm start
 
 ---
 
-\_This project was built with Next.js and is maintained by Harith Bennet
+This project was built with Next.js and is maintained by Harith Bennet
